@@ -17,7 +17,7 @@ bool isPalindrome_01(long Number)
 {
     long rem = 0;
 
-    for (short i = Number; i; i /= 10)
+    for (long i = Number; i; i /= 10)
     {
         rem = rem * 10 + (i % 10);
     }
